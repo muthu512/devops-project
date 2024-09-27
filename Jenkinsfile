@@ -1,8 +1,8 @@
 pipeline {
 agent any
 environment {
-DOCKERHUB_CREDENTIALS = 'srinath' // Replace with your Docker Hub credentials ID
-DOCKERHUB_REPO = 'srinath12123/devops-project1' // Replace with your Docker Hub repo
+DOCKERHUB_CREDENTIALS = 'itzsmk'
+DOCKERHUB_REPO = 'https://hub.docker.com/repository/docker/itzsmk/devops_project/general'
 }
 stages {
 stage('Checkout') {
