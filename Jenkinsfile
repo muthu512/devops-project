@@ -2,7 +2,7 @@ pipeline {
 agent any
 environment {
 DOCKERHUB_CREDENTIALS = 'itzsmk'
-DOCKERHUB_REPO = 'https://hub.docker.com/repository/docker/itzsmk/devops_project/general'
+DOCKERHUB_REPO = 'https://hub.docker.com/repository/docker/itzsmk/devops_project/'
 }
 stages {
 stage('Checkout') {
